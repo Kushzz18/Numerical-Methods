@@ -2,8 +2,7 @@
 #include<conio.h>
 #include<math.h>
 #include<stdlib.h>
-#define e 2.718
-#define f(x) (3*x + sin(x) - pow(e,x))
+#define f(x) (pow(x,3)-2*x-5)
 
 int main()
 {
