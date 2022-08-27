@@ -10,9 +10,9 @@ int main()
 	int s = 1, n;
 	printf("\nEnter the initial guess(x0) : ");
 	scanf("%f", &x0);
-	printf("Enter the tolerable error amount : ");
+	printf("\nEnter the tolerable error amount : ");
 	scanf("%f", &error);
-	printf("Enter maximum number of iteration : ");
+	printf("\nEnter maximum number of iteration : ");
 	scanf("%d", &n);
 	printf("\nStep \t \t x0 \t \t f(x0) \t \t x1 \t \t f(x1)");
 	do{

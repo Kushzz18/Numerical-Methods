@@ -7,16 +7,16 @@ int main()
 	 float a,b,c,f0,f1,f2,error;
 	 int s = 1;
 	 flag:
-	 printf("\n Enter two initial guesses : ");
+	 printf("\nEnter two initial guesses : ");
 	 scanf("%f %f",&a,&b);
 	 f0 = f(a);
 	 f1 = f(b);
 	 if( f0 * f1 > 0.0)
 	 {
-		printf("Invalid Initial Guesses.\n Please Try Again!!! \n");
+		printf("\nInvalid Initial Guesses.\n\nPlease Try Again!!! \n");
 		goto flag;
 	 }
-	printf("Enter tolerable error : ");
+	printf("\nEnter tolerable error : ");
 	scanf("%f",&error);
 	printf("\n Step \t \t a \t \t b \t \t c \t \t f(c) \n");
 	do
