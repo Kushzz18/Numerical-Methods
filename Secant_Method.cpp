@@ -9,7 +9,7 @@ int main()
 	 float x0=0,x1=0,x2=0,f0=0,f1=0,f2=0,error=0;
 	 int s=1, n;
 	 top:
-	 printf("\nEnter initial guesses(x0 & x1) : ");
+	 printf("\n\nEnter initial guesses(x0 & x1) : ");
 	 scanf("%f %f", &x0, &x1);
 	 printf("\nEnter tolerable error : ");
 	 scanf("%f", &error);
@@ -22,7 +22,7 @@ int main()
 		  f1 = f(x1);
 		  if(f0 == f1)
 		  {
-			   printf("\nInvalid Process !!! Division by Zero condition. \n Please Try Again");
+			   printf("\nInvalid Process !!! Division by Zero condition.\n\n Please Try Again");
 			   goto top;
 		  }
 		  
