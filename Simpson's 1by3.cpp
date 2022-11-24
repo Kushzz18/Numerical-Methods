@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
-/* Define function here */
 #define f(x) 1/(1+x*x)
 int main()
 {
@@ -14,6 +13,7 @@ int main()
  printf("\nEnter number of sub intervals: ");
  scanf("%d", &subInterval);
  stepSize = (upper - lower)/subInterval;
+ /* Finding Integration Value */
  integration = f(lower) + f(upper);
  for(i=1; i<= subInterval-1; i++)
  {
